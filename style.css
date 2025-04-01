@@ -1,0 +1,43 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20vh;
+}
+#header{
+    font-weight: bold;
+    text-align: center;
+    font-size: 36px;
+}
+
+#board{
+    border-collapse: collapse;
+}
+
+#board td{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 24px;
+    border: 7px solid black;
+}
+
+#choiceModal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border: 2px solid black;
+    text-align: center;
+    display: block;
+}
+button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
